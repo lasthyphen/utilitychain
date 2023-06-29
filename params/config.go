@@ -45,8 +45,8 @@ var (
 	AvalancheFujiChainID = big.NewInt(43113)
 	// AvalancheLocalChainID ...
 	AvalancheLocalChainID = big.NewInt(43112)
-	// DijetsMainnetChainID ...
-	DijetsMainnetChainID = big.NewInt(98200)
+	// MetalMainnetChainID ...
+	MetalMainnetChainID = big.NewInt(381931)
 	// MetalTahoeChainID ...
 	MetalTahoeChainID = big.NewInt(381932)
 
@@ -134,8 +134,8 @@ var (
 		BanffBlockTimestamp:             big.NewInt(0),
 	}
 
-	DijetsMainnetChainConfig = &ChainConfig{
-		ChainID:                         DijetsMainnetChainID,
+	MetalMainnetChainConfig = &ChainConfig{
+		ChainID:                         MetalMainnetChainID,
 		HomesteadBlock:                  big.NewInt(0),
 		DAOForkBlock:                    big.NewInt(0),
 		DAOForkSupport:                  true,
